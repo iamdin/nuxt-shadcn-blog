@@ -11,7 +11,7 @@ Steve Holt! There's only one man I've ever called a coward, and that's Brian Doy
 ```jsx
 <Image
   alt={`Bridge`}
-  src={`/images/bridge.jpg`}
+  src={`/images/bridge.png`}
   width={1440}
   height={960}
   priority

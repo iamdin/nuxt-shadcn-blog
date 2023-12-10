@@ -1,6 +1,6 @@
 ---
-title: Next.js MDX Blog
-description: Steps to help you get started with Next.js MDX Blog
+title: Nuxt Shadcn Blog
+description: Steps to help you get started with Nuxt Shadcn Blog
 date: 2023-09-16
 ---
 
@@ -10,10 +10,9 @@ date: 2023-09-16
 
 Clone the repo and install the dependencies.
 
-```bash [Terminal]
-git clone https://github.com/ChangoMan/nextjs-mdx-blog.git
-
-cd nextjs-typescript-mdx-blog
+```bash
+git clone https://github.com/iamdin/nuxt-shadcn-blog
+cd nuxt-shadcn-blog
 
 npm install
 
@@ -22,10 +21,6 @@ npm run dev
 
 Your new site will be up at http://localhost:3000/
 
-Blog posts can be added to the `posts` directory, in the root folder.
-
-Update the `WEBSITE_HOST_URL` when taking your site live. This lives in `/src/lib/constants.ts`
-
-Make sure to update the `sitemap.ts` file, specifically the `const routes` if you add more pages to the website.
+Blog posts can be added to the `content/posts` directory, in the root folder.
 
 Go back [Home](/).
